@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #616161;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #414141;
+    align-items: center;
+    height: 24px;
+    width: 412px;
+    margin: auto;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+
+}
+
+.container{
+    height: 915px;
+    width: 412px;
+    background-color: #212121;
+    margin: auto;
+}
+
+form{
+    height: 40%;
+    width: 100%;
+    background-color: #111111;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 85%;
+    margin: 20px;
+    border: 0.5px solid orange;
+    height: 22px;
+
+
+}
+
+#btm-sbmit{
+    background-color: #ff0000;
+    color: #fff;
+    width: 86px;
+    border-radius: 10px;
+
+}
